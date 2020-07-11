@@ -75,8 +75,7 @@ public static void verificar(int eficiencia_conduccion, int distancia_conduccion
         System.out.println(Desplazar_Automovil( eficiencia_conduccion, distancia_conduccion, velocidad_ejecucion));
         System.out.println(Receptar_imagen_camara( tipo_camara, tipo_senial, rango_sensibilidad));
         System.out.println(Ejecutar_tarea_ordenada_red_neural( velocidad_ejecucion, tipo_modulo));
-        System.out.println(Obtener_pulsos_sensor( tipo_sensor, rapidez_pulso));
-        System.out.println(Determinar_rangos_voltaje( rango_voltaje ));
+       
     }else{
         System.out.println("Verificar El Proceso de la Obtencion de Pulsos del Sensor");
     }
